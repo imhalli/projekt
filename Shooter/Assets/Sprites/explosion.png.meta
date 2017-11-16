@@ -1,11 +1,15 @@
 fileFormatVersion: 2
-guid: a9779eb40c2a1e14dbc57b49c81f6d96
-timeCreated: 1510805258
+guid: d2c4e8220a1997b4797e6fd76a34e149
+timeCreated: 1510800337
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Effect1_0
-    21300002: Effect1_1
+    21300000: explosion_0
+    21300002: explosion_1
+    21300004: explosion_2
+    21300006: explosion_3
+    21300008: explosion_4
+    21300010: explosion_5
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -89,29 +93,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Effect1_0
+      name: explosion_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 64
-        width: 11
-        height: 16
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Effect1_1
+      name: explosion_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 33
-        width: 14
-        height: 14
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explosion_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explosion_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explosion_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explosion_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
